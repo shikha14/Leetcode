@@ -78,17 +78,7 @@ public class BinaryTreeZigzagLevelOrderTraversal {
 
 
     public static void main(String[] args){
-        TreeNode  root = new TreeNode(3);
-        root.left = new TreeNode(9);
-        root.right = new TreeNode(20);
-        root.left.right = new TreeNode(7);
-        root.left.left = new TreeNode(15);
-
-        root.right.left = new TreeNode(21);
-
-        root.right.left.left = new TreeNode(22);
-        root.right.left.right = new TreeNode(26);
-
+        TreeNode  root = TreeNode.constructTree();
         System.out.println(zigzagLevelOrder(root));
 
     }
