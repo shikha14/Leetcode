@@ -3,13 +3,12 @@ package linkedlist;
 /**
  * Created by Shikha on 23/03/18.
  * Given a list, rotate the list to the right by k places, where k is non-negative.
-
-
- Example:
-
- Given 1->2->3->4->5->NULL and k = 2,
-
- return 4->5->1->2->3->NULL.
+ *
+ * Example:
+ *
+ * Given 1->2->3->4->5->NULL and k = 2,
+ *
+ * return 4->5->1->2->3->NULL.
  */
 public class RotateList {
     public static ListNode rotateRightUsingTwoPointer(ListNode head, int k) {

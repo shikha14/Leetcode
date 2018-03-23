@@ -28,4 +28,12 @@ public class ListNode {
            System.out.print(temp.val+"!!");
        }
     }
+
+    @Override
+    public String toString() {
+        return "ListNode{" +
+                "val=" + val +
+                ", next=" + next +
+                '}';
+    }
 }
