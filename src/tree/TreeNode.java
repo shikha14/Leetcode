@@ -23,10 +23,22 @@ public class TreeNode {
         root.left = new TreeNode(9);
         root.right = new TreeNode(2);
         root.left.right = new TreeNode(7);
-//        root.left.left = new TreeNode(15);
-//        root.right.left = new TreeNode(21);
-//        root.right.left.left = new TreeNode(22);
-//        root.right.left.right = new TreeNode(26);
+        root.left.left = new TreeNode(15);
+        root.right.left = new TreeNode(21);
+        root.right.left.left = new TreeNode(22);
+        root.right.left.right = new TreeNode(26);
+        return root;
+    }
+
+    static TreeNode constructTree1() {
+        TreeNode  root = new TreeNode(3);
+        root.left = new TreeNode(1);
+        root.right = new TreeNode(5);
+        root.left.right = new TreeNode(2);
+        root.left.left = new TreeNode(0);
+        root.right.left = new TreeNode(4);
+        root.right.right = new TreeNode(6);
+
         return root;
     }
 
