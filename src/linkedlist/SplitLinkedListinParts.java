@@ -84,9 +84,6 @@ public class SplitLinkedListinParts {
 
     public static void main(String[] args){
         ListNode head = ListNode.constructList();
-        System.out.print("\nOriginal List:");
-        ListNode.displayList(head);
-        System.out.println("Size::"+size(null));
         System.out.println(Arrays.toString(splitListToParts(head,6)));
 
     }
