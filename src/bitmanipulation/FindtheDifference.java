@@ -22,6 +22,8 @@ package bitmanipulation;
  */
 public class FindtheDifference {
     public static char findTheDifference(String s, String t) {
+        if(s.length()==0 && t.length()==1)
+            return t.charAt(0);
         int xor=s.charAt(0);
         for(int i=1;i<s.length();i++){
             xor = xor ^ s.charAt(i);
